@@ -1,0 +1,7 @@
+### Get all orders
+GET http://localhost:3000/api/in-memory-orders
+Content-Type: application/json
+
+### Create a new order
+POST http://localhost:3000/api/in-memory-orders
+Content-Type: application/json
