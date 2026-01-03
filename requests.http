@@ -5,3 +5,12 @@ Content-Type: application/json
 ### Create a new order
 POST http://localhost:3000/api/in-memory-orders
 Content-Type: application/json
+
+
+### Get all orders from Redis
+GET http://localhost:3000/api/redis-orders
+Content-Type: application/json
+
+### Create a new order in Redis
+POST http://localhost:3000/api/redis-orders
+Content-Type: application/json
